@@ -1,4 +1,5 @@
 import './App.css'
+import HookCustomHook from './components/HookCustomHook'
 import HookUseContext from './components/HookUseContext'
 import HookUseEffect from './components/HookUseEffect'
 import HookUseMemo from './components/HookUseMemo'
@@ -8,11 +9,12 @@ import HookUseState from './components/HookUseState'
 function App() {
   return (
     <>
-      {/* <HookUseState /> */}
-      {/* <HookUseEffect /> */}
-      {/* <HookUseMemo /> */}
-      <HookUseContext />
+      <HookCustomHook />
       <HookUseReducer />
+      <HookUseContext />
+      <HookUseMemo />
+      <HookUseEffect />
+      <HookUseState />
     </>
   )
 }
